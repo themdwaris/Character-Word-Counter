@@ -1,0 +1,71 @@
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lr-pad{
+    padding: 0 8%;
+}
+.container{
+    padding: 50px;
+}
+h1{
+    padding: 30px 0;
+    text-align: center;
+    background-color:rgb(175, 90, 255);
+    color: white;
+}
+.textBox{
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    border: 1px solid rgb(175, 90, 255);
+}
+textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 30px;
+    font-size: 20px;
+  
+}
+textarea:focus{
+    border: 3px solid rgb(175, 90, 255);
+}
+p{
+    padding: 20px 15px;
+    background-color: rgb(175, 90, 255);
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+#word{
+    font-weight: 700;
+}
+#char{
+    font-weight: 700;
+}
+
+@media screen and (max-width:600px){
+
+    p{
+        padding: 20px 10px;
+        background-color: rgb(175, 90, 255);
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    h1{
+        padding: 25px 0;
+        text-align: center;
+        background-color:rgb(175, 90, 255);
+        color: white;
+        font-size: 25px;
+    }
+
+}
